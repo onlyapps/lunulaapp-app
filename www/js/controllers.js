@@ -5,7 +5,8 @@ angular.module('lapp-ctrl', [])
   $scope.loginData = {};
 
   $ionicModal.fromTemplateUrl('templates/login.html', {
-    scope: $scope
+    scope     : $scope,
+    animation : 'slide-in-up'
   }).then(function(modal) {
     $scope.modal = modal;
   });

@@ -10,7 +10,13 @@ angular.module('lapp-mgmt', ['ionic', 'lapp-ctrl'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicModal) {
+
+   $ionicModal.fromTemplateUrl('templates/login.html', {
+    scope     : $scope,
+    animation : 'slide-in-up'
+   });
+   
   $stateProvider
     .state('app', {
     url: '/app',
