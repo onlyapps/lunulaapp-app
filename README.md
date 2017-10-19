@@ -1,4 +1,6 @@
 # lunulaapp-app
 Hybrid App
 
-lunulaapp is a mobile application which was developed using Ionic platform
+lunulaapp is a mobile application which was developed using Ionic platform.
+
+It was developed
